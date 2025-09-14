@@ -39,32 +39,15 @@ out/
 *.temp
 .cache/
 
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-ENV/
+# 运行时文件
+*.pid
+*.seed
+*.pid.lock
 
-# Java
-*.class
-*.jar
-*.war
-*.ear
-target/
+# 覆盖率目录
+coverage/
+.nyc_output/
 
-# C/C++
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.dylib
-
-# 数据库
-*.db
-*.sqlite
-*.sqlite3
+# 依赖锁定文件
+package-lock.json
+yarn.lock
